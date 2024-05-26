@@ -33,9 +33,9 @@ script = ExtResource("1_56v20")
 
 [node name="HealthComponent" parent="." instance=ExtResource("2_xotrb")]
 
-[node name="AbilityManager" type="Node" parent="."]
+[node name="Abilities" type="Node" parent="."]
 
-[node name="SwordAbilityController" parent="AbilityManager" instance=ExtResource("2_14gh0")]
+[node name="SwordAbilityController" parent="Abilities" instance=ExtResource("2_14gh0")]
 
 [node name="PlayerShape" type="CollisionShape2D" parent="."]
 position = Vector2(0, -7)
